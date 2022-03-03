@@ -6,8 +6,7 @@
 
 
 listOfNumbers = []
-num = int(input('How many numbers: '))
-for n in range(num):
+for n in range(5):
     numbers = int(input())
     listOfNumbers.append(numbers)
 print("Output", sum(listOfNumbers))
