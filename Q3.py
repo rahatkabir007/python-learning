@@ -1,5 +1,5 @@
-input = [3, 4, 5, 6]
-print(input[1])
+# input = [3, 4, 5, 6]
+# print(input[1])
 
 # or
 
@@ -13,3 +13,7 @@ print(input[1])
 #     return number // 10**n % 10
 #
 # print(input(3456, 2))
+
+# input = 3456
+# for digit in str(input):
+#   print(digit)
