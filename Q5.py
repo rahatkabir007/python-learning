@@ -1,19 +1,32 @@
-import datetime
-# day = int(input())
-# month = int(input())
-# year = int(input())
-
-# x = datetime.datetime(2022, 3, 2)
-#
-# print(f"{x.strftime('%B')} {x.strftime('%d')}, {x.strftime('%Y')}")
-
-
 day = int(input())
 month = int(input())
 year = int(input())
 
-if(day == int(2)):
-    print('March 2, 2022')
+if month == int(1):
+    print(f"January {day}, {year}")
+elif month == int(2):
+    print(f"February {day}, {year}")
+elif month == int(3):
+    print(f"March {day}, {year}")
+elif month == int(4):
+    print(f"April {day}, {year}")
+elif month == int(5):
+    print(f"May {day}, {year}")
+elif month == int(6):
+    print(f"June {day}, {year}")
+elif month == int(7):
+    print(f"July {day}, {year}")
+elif month == int(8):
+    print(f"August {day}, {year}")
+elif month == int(9):
+    print(f"September {day}, {year}")
+elif month == int(10):
+    print(f"October {day}, {year}")
+elif month == int(11):
+    print(f"November {day}, {year}")
+elif month == int(12):
+    print(f"December {day}, {year}")
+
 else:
     print('Wrong Input')
 
